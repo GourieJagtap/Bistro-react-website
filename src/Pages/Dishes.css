@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Eczar:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Eczar&display=swap');
+.fontt{
+    font-family: 'Eczar', serif;
+
+}
+.dish{
+    font-weight: bold;
+    font-size: 50px;
+}
