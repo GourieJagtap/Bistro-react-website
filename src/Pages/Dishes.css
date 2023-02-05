@@ -2,9 +2,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Eczar&display=swap');
 .fontt{
     font-family: 'Eczar', serif;
-
+    padding-bottom: 30px;
 }
 .dish{
     font-weight: bold;
     font-size: 50px;
+}
+.grey{
+    color: rgb(64, 64, 64);
 }
