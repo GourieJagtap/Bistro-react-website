@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Eczar:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Eczar&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sail&display=swap');
+.bgg{
+    background-color: rgb(232, 232, 232);
+}
+.bottom{
+    font-family: 'Eczar', serif;
+    padding: 20px;
+}
+.bistrob{
+    font-family: 'Sail', cursive;
+    font-size: 50px;
+}
+.find{
+    font-weight: 800;
+    font-size: larger;
+    padding-top: 20px;
+}

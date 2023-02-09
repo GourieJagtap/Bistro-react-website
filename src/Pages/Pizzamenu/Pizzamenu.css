@@ -1,0 +1,19 @@
+.imgs{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: 2px solid rgb(89, 88, 88);
+}
+.bold{
+    font-weight: bold;
+}
+@media (max-width: 576px){
+    .imgs{
+        height: 45px;
+        width: 45px;
+    }
+    .bold{
+        font-size: 14px;
+        font-weight: 700;
+    }
+}

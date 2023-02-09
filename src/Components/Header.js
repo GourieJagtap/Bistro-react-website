@@ -4,7 +4,7 @@ import "./Header.css"
 
 const Header = () => {
   return (
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top" >
   <div class="container-fluid">
     <a class="navbar-brand bistro" href="#">Bistro</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -17,9 +17,6 @@ const Header = () => {
         </li>
         <li class="nav-item">
           <Link class="nav-link" to="/Menu">Menu</Link>
-        </li>
-        <li class="nav-item">
-          <Link class="nav-link " to="/News" tabindex="-1" aria-disabled="true">News</Link>
         </li>
         <li class="nav-item">
           <Link class="nav-link " to="/Contact" tabindex="-1" aria-disabled="true">Contact</Link>

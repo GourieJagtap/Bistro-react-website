@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Eczar:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Eczar&display=swap');
+
+.bgbook{
+    background-image: url("../Images/book.png");
+    height:400px;
+    width: auto;
+    background-position: center;
+    background-size: cover;
+    font-family: 'Eczar', serif;
+    color: white;
+    font-size: 20px;
+}
+.h{
+    height: 400px;
+}
+.lorem{
+   color: rgb(187, 187, 187);
+}
+.book{
+    font-size: 100px;
+    font-weight: 600;
+    letter-spacing: 3px;
+}
+@media (max-width: 650px){
+    .bgbook{
+        height: 200px;
+    }
+    .book{
+        font-size: 30px;
+    }
+    .h{
+        height: 200px;
+    }
+    .lorem{
+        font-size: 13px;
+    }
+}
