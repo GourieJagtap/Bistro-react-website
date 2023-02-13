@@ -1,7 +1,7 @@
+import { ListItem, ListItemButton } from '@mui/material';
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { NavLink, Router } from 'react-router-dom';
 import "./Header.css"
-
 const Header = () => {
   return (
     <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top" >
@@ -13,13 +13,19 @@ const Header = () => {
     <div class="collapse navbar-collapse font " id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0 mx-auto">
         <li class="nav-item">
-          <Link class="nav-link active" aria-current="page" to="/">Home</Link>
+          <ListItem>
+          <NavLink onClick={() => {window.scrollTo(0, 0)}} class="nav-link " aria-current="page" to="/" >Home</NavLink>
+          </ListItem>
         </li>
         <li class="nav-item">
-          <Link class="nav-link" to="/Menu">Menu</Link>
+        <ListItem>
+          <NavLink onClick={() => {window.scrollTo(0, 0)}} class="nav-link" to="/Menu">Menu</NavLink>
+        </ListItem>
         </li>
         <li class="nav-item">
-          <Link class="nav-link " to="/Contact" tabindex="-1" aria-disabled="true">Contact</Link>
+        <ListItem>
+          <NavLink onClick={() => {window.scrollTo(0, 0)}} class="nav-link " to="/Contact" >Contact</NavLink>
+        </ListItem>
         </li>
       </ul>
       <form class="d-flex">

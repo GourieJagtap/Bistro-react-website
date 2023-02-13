@@ -5,7 +5,7 @@ import Header from './Components/Header'
 import Home from "./Components/Home"
 import Menu from './Components/Menu'
 import Newssec from './Components/Newssec'
-import Bottom from './Components/Bottom'
+import Bottom from './Components/Bottom';
 const App = () => {
   return (
     <div>

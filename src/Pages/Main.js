@@ -1,6 +1,7 @@
 import { Button, Divider, Typography } from '@mui/material';
 import React from 'react';
 import "./Main.css";
+import { NavLink, Router } from 'react-router-dom';
 
 const Main = () => {
   return (
@@ -17,7 +18,7 @@ const Main = () => {
                   <p>It's about good food and fresh ingredients!</p>
                 </div>
                 <div class="col-sm-12">
-                  <Button className='btn' variant="contained " sx={{bgcolor:"#EC5800",color:"white",fontWeight:"BOLD"}}>View our Menu</Button>
+                  <Button className='btn' variant="contained " sx={{bgcolor:"#EC5800",color:"white",fontWeight:"BOLD"}}><NavLink onClick={() => {window.scrollTo(0, 0)}} class="nav-link" to="/Menu">View our Menu</NavLink></Button>
                 </div>
                 </div>
             </div>

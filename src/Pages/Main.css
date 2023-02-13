@@ -25,6 +25,7 @@
 .d-soul{
     color: rgb(101, 106, 106);
 }
+
 @media (max-width: 576px){
     .bg{
         background-position: center;

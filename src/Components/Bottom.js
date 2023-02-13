@@ -20,12 +20,12 @@ const Bottom = () => {
                     </div>
                 </div>
                 
-                <div className='col-sm-6 p-sm-5 pt-4'>
+                <div className='col-sm-6 p-sm-5 pt-4 d-flex align-items-center justify-content-center'>
                     <div className='row '>
                         <div className='col-sm-12 find' >
                             How to find us?
                         </div>
-                        <div className='col-sm-12'>
+                        <div className='col-sm-12 '>
                             <ul type="none" className='p-4'>
                             <li><LocationOnIcon></LocationOnIcon> Avenue Marina 357642 NY-B152</li>
                             <li><CallIcon></CallIcon> +1029 4356 73</li>
